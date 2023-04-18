@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "cover_videos",
+  "info": {
+    "singularName": "cover-video",
+    "pluralName": "cover-videos",
+    "displayName": "CoverVideo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "video": {
+      "allowedTypes": [
+        "files",
+        "videos",
+        "audios",
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
